@@ -1,25 +1,38 @@
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url('Ubuntu/Ubuntu-Medium.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #121212;
-  color: #fff;
+  animation: backgroundFade 6s ease-in-out infinite alternate;
+  color: whitesmoke;
+}
+
+@keyframes backgroundFade {
+  0%   { background-color: #000000; }
+  50%  { background-color: #000040; }
+  100% { background-color: #000000; }
 }
 
 .tabs {
   display: flex;
-  border: 2px solid white;
+  justify-content: center;
+  border-radius: 10px;
   padding: 0;
-  margin: 0;
+  margin: 10px 20px;           /* Center it horizontally and add top spacing */
   overflow: hidden;
+  background-color: #301934
 }
 
 .tabs button {
-  background: #301934;
+  background: #1a0033;
   border: none;
   border-radius: 0px;
-  color: #00ffa3;
+  color: #00f5c3;
   font-size: 20px;
-  font-family: 'Lucida Sans Unicode';
+  font-family: 'Ubuntu Medium', sans-serif;
   cursor: pointer;
   padding: 10px 20px;
   flex: 1;
@@ -36,4 +49,50 @@ body {
 .content-box {
   padding: 30px;
   min-height: 300px;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: all 0.3s ease;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateX(30px);
+  transition: all 0.3s ease;
+}
+
+#tab-content h2 {
+  color: #00ffc8;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+#tab-content ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+#tab-content ul li {
+  margin-bottom: 8px;
+  font-size: 17px;
+}
+
+
+.cv-download {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00ffa3;
+  color: #121212;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.cv-download:hover {
+  background-color: #00cc88;
 }
