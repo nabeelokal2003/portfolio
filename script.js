@@ -78,6 +78,8 @@ const contentMap = {
     cv:
     `<a href="naoCV.pdf" download class="cv-download">
     Download My CV
+
+    <p>This line is for testing purposes</p>
     </a>`,
     contact: `
     <h1>Contact Me</h1>
