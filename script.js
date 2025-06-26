@@ -166,12 +166,14 @@ const contentMap = {
           </a>`,
 
     contact: `
+    <div class="contact-content">
     <h1>Contact Me</h1>
       <p>If you'd like to get in touch with me about internships, collaborations, or just to say hi, feel free to reach out through any of the platforms below:</p>
         <p>Email: <a href="nabeel.okal@gmail.com">nabeel.okal@gmail.com</a></p>
         <p>GitHub: <a href="https://github.com/nabeelokal2003">https://github.com/nabeelokal2003</a></p> 
         <p>LinkedIn: <a href="https://www.linkedin.com/in/nabeel-okal-914175282">https://www.linkedin.com/in/nabeel-okal-914175282</a></p>
         <p>Whatsapp: <a href="https://wa.me/+962795311496" target="_blank">Message me on Whatsapp</a>
+      </div>
     `
 };
 

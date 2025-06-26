@@ -176,3 +176,8 @@ body {
   color: #00ffa3;
   margin-bottom: 10px;
 }
+
+/* Contact me */
+.contact-content p{
+  font-size: 30px;
+}
