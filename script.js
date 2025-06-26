@@ -1,10 +1,17 @@
 const contentMap = {
     home:        
-        `<h1>Welcome to my Portfolio!</h1>
-        <p>I love building intelligent systems, experimenting with Arduino robots, and developing sleek mobile apps. I enjoy <br> merging software and hardware to solve real-world problems.</p>`,
+        `<section class="home-hero">
+            <h1>👋 Hi, I'm Nabeel Okal</h1>
+            <p style="font-size: 45px">A passionate CS student building intelligent systems that connect AI, Robotics, and the Web.</p>
 
-    about:
-        `<h1>About Me</h1>
+            <p style="margin-top: 15px; font-size: 25px">
+              🚀 Exploring the intersection of <strong>hardware</strong> and <strong>software</strong> to create real-world tech solutions.
+            </p>
+          </section>
+        `,
+
+    about:`<div class="about-me">
+        <h1>About Me</h1>
           <p>Hello! I'm <strong>Nabeel Okal</strong>, a Computer Science student with a deep passion for building intelligent systems that combine <em>software and hardware</em>.</p>
 
           <p>From writing my first Python script to programming Arduino-powered robots, I’ve always been driven by curiosity and creativity. I love solving <br>real-world problems with code, whether it's developing machine learning models or crafting sleek Android apps.</p>
@@ -19,15 +26,52 @@ const contentMap = {
 
           <h2>My Mission:</h2>
           <p>To build intelligent, interactive, and impactful tech — and one day, contribute to developing humanoid robots that can assist, learn, and adapt in the real world.</p>
+        </div>
+      
 `,
 
     projects:
-       `<h1>Projects</h1>
+       `<h1>🛠️ My Projects</h1>
+    <div class="project">
+    <h3>🤖 Obstacle Avoidance Robot</h3>
+    <p>Built with Arduino, ultrasonic sensor, and C++. It detects and avoids obstacles autonomously.</p>
     <ul>
-      <li>AI Chatbot using Transformers</li>
-      <li>Obstacle Avoidance Robot (Arduino + Ultrasonic)</li>
-      <li>Image Classification with Python + OpenCV</li>
-    </ul>`,
+      <li>Arduino Uno + HC-SR04 ultrasonic module</li>
+      <li>Motor driver + wheels for movement</li>
+      <li>Written in C++</li>
+    </ul>
+  </div>
+  
+    <div class="project">
+    <h3>💬 AI Chatbot using Transformers</h3>
+    <p>A conversational chatbot built using Hugging Face Transformers and Python.</p>
+    <ul>
+      <li>Used pre-trained transformer models</li>
+      <li>Handles multiple question types</li>
+      <li>Built using Python and Flask</li>
+    </ul>
+  </div>
+
+    <div class="project">
+    <h3>📷 Image Classifier with Python + OpenCV</h3>
+    <p>Developed a simple image classifier that detects handwritten digits using OpenCV and machine learning techniques.</p>
+    <ul>
+      <li>Trained a model on MNIST dataset</li>
+      <li>Used OpenCV for image processing</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3>🎮 Hangman Game (C++)</h3>
+    <p>Terminal-based game developed in C++ with word guessing logic, lives counter, and input validation.</p>
+  </div>
+
+  <div class="project">
+    <h3>🎮 Hangman Game (C++)</h3>
+    <p>Terminal-based game developed in C++ with word guessing logic, lives counter, and input validation.</p>
+  </div>
+  
+  `,
 
     skills: `
     <h1>My Skills</h1>
@@ -75,17 +119,59 @@ const contentMap = {
 </ul>
     `,
 
-    cv:
-    `<a href="naoCV.pdf" download class="cv-download">
-    Download My CV
+    cv:`
+       <h1>📄 My Resume</h1>
+       <h2>🎓 Education</h2>
+        <ul>
+          <li>
+            <strong>German Jordanian University</strong> – B.Sc. in Computer Science<br>
+            <em>Expected Graduation:</em> 2025
+          </li>
+        </ul>
 
-    <p>This line is for testing purposes</p>
-    </a>`,
+         <h2>💼 Experience</h2>
+        <ul>
+          <li>
+            <strong>Robotics/AI Intern</strong> – Assisted in building intelligent robotics systems with Arduino & Python.
+          </li>
+          <li>
+            <strong>Freelance Developer</strong> – Developed websites and Python automation scripts.
+          </li>
+        </ul>
+
+        <h2>🧠 Skills</h2>
+        <ul>
+          <li><strong>Languages:</strong> Python, C++, Java, JavaScript, PHP, Kotlin</li>
+          <li><strong>AI/ML:</strong> TensorFlow, OpenCV, Scikit-learn, Transformers</li>
+          <li><strong>Robotics:</strong> Arduino, ESP32, Sensors (Ultrasonic, Line Follower), Motor Drivers</li>
+          <li><strong>Tools:</strong> Git & GitHub, VS Code, Android Studio</li>
+          <li><strong>Web Dev:</strong> HTML, CSS, Bootstrap, JS, MySQL</li>
+        </ul>
+  
+        <h2>📜 Certifications</h2>
+          <ul>
+            <li>Robotics & IoT <br><a href="Engineering.pdf" download class="IoT-download">
+              Robotics & IoT certificate
+              </a>
+            </li><br>
+            <li>Python Programming <br><a href="PythonCourseCertificate.pdf" download class="Py-download">
+              Python Programming certificate
+              </a>
+            </li><br>
+          </ul>
+
+        <h2>📥 Download My CV</h2>
+          <a href="naoCV.pdf" download class="cv-download">
+            Download My CV
+          </a>`,
+
     contact: `
     <h1>Contact Me</h1>
+      <p>If you'd like to get in touch with me about internships, collaborations, or just to say hi, feel free to reach out through any of the platforms below:</p>
         <p>Email: <a href="nabeel.okal@gmail.com">nabeel.okal@gmail.com</a></p>
         <p>GitHub: <a href="https://github.com/nabeelokal2003">https://github.com/nabeelokal2003</a></p> 
         <p>LinkedIn: <a href="https://www.linkedin.com/in/nabeel-okal-914175282">https://www.linkedin.com/in/nabeel-okal-914175282</a></p>
+        <p>Whatsapp: <a href="https://wa.me/+962795311496" target="_blank">Message me on Whatsapp</a>
     `
 };
 

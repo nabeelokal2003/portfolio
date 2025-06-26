@@ -82,6 +82,23 @@ body {
 
 
 .cv-download {
+  /* display: inline-block; */
+  padding: 10px 20px;
+  background-color: #00ffa3;
+  color: #121212;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.cv-download:hover {
+  background-color: #00cc88;
+}
+
+.IoT-download {
   display: inline-block;
   padding: 10px 20px;
   background-color: #00ffa3;
@@ -93,6 +110,69 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.cv-download:hover {
+.IoT-download:hover {
   background-color: #00cc88;
+}
+
+.Py-download {
+   display: inline-block;
+    padding: 10px 20px;
+    background-color: #00ffa3;
+    color: #121212;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.Py-download:hover {
+  background-color: #00cc88;
+}
+
+#tab-content a[href*="wa.me"] {
+  color: #25D366; /* WhatsApp green */
+  font-weight: bold;
+}
+
+.project {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-left: 4px solid #00ffa3;
+  background-color: #1a1a2e;
+  border-radius: 8px;
+}
+
+.project h3 {
+  color: #00ffa3;
+}
+
+.project p {
+  font-size: 16px;
+  color: #ccc;
+}
+
+/*About Me design*/
+.about-me p {
+  font-size: 20px;
+}
+
+.about-me li {
+  font-size: 20px;
+}
+
+/* Home Tab design */
+.home-hero {
+  text-align: center;
+  /* justify-content: center; */
+  padding: 50px 20px;
+  background: linear-gradient(145deg, #1a1a2e, #301934);
+  border-radius: 12px;
+  margin-right: 50px;
+}
+
+.home-hero h1 {
+  font-size: 36px;
+  color: #00ffa3;
+  margin-bottom: 10px;
 }
