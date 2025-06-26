@@ -178,6 +178,30 @@ body {
 }
 
 /* Contact me */
-.contact-content p{
+.contact-links {
+  list-style-type: none;
+  padding: 0;
   font-size: 30px;
+  margin-top: 20px;
+}
+
+.contact-links li {
+  margin-bottom: 20px;
+}
+
+.contact-links a {
+  color: #00ffa3;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-links a:hover {
+  color: #00cc88;
+  text-decoration: underline;
+}
+
+.contact-content p {
+  font-size: 22px;
+  font-weight: bold;
 }
