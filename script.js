@@ -52,20 +52,6 @@ const contentMap = {
     </ul>
   </div>
 
-    <div class="project">
-    <h3>📷 Image Classifier with Python + OpenCV</h3>
-    <p>Developed a simple image classifier that detects handwritten digits using OpenCV and machine learning techniques.</p>
-    <ul>
-      <li>Trained a model on MNIST dataset</li>
-      <li>Used OpenCV for image processing</li>
-    </ul>
-  </div>
-
-  <div class="project">
-    <h3>🎮 Hangman Game (C++)</h3>
-    <p>Terminal-based game developed in C++ with word guessing logic, lives counter, and input validation.</p>
-  </div>
-
   <div class="project">
     <h3>🎮 Hangman Game (C++)</h3>
     <p>Terminal-based game developed in C++ with word guessing logic, lives counter, and input validation.</p>
